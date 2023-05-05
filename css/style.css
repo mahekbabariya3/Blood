@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap'); */
 
 
 
@@ -128,8 +128,8 @@ body{
 }
 .row{
   padding: 0;
-  margin: 0;
-  padding-right: 0;
+  margin: 0 !important;
+  padding-right: 0 !important;
   
 }
 img{
@@ -350,6 +350,8 @@ box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
 }
 
 /* SECTION APPOINTMENT BOX stsrt End  */
+
+
 /* SECTION APPOINTMENT BOX start  */
 .appoment_conten{
   background-color: #F9FAFB !important;
@@ -430,6 +432,9 @@ box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
   font-family: 20px;
   font-family: var(--font-family-Playfair);
 }
+.testimony-layout-1 h4{
+  font-size: 30px !important;
+} 
 /* .main_conten{
   padding: 0 30px;
 } */
@@ -579,4 +584,18 @@ box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
  .about_left a{
   background-color: #FE3C47;
     color: var(--text-color-white);
+ }
+
+
+ /* advatigment  */
+ .adv_img{
+  background-color: #232226;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../img/transfusing-blood-2021-09-24-03-29-16-utc.jpg) ; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../img/ent_3.jpg) ;
+  
+
+ }
+ .ad_main_contion{
+  background-color: #ffff;
+  padding: 80px 0;
  }

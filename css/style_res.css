@@ -54,6 +54,7 @@
          display: inline-block;
          color: #ff2828;
      }
+  
  
  }
 @media screen and (max-width:1024px) {
@@ -70,7 +71,7 @@
     }
  }
 
- @media screen and (max-width:425px) {
+ @media screen and (min-width:425px) {
     
     .about_us_conten{
         padding: 30px 10px 10px 10px;
@@ -95,7 +96,7 @@
     }
     .appointment-form-wrapper{
         margin-top: 0px !important;
-    }
+    }  
  }
 
 
@@ -128,6 +129,9 @@
     .appoinment-form input{
         width: 100%;
     }
+    .testimony-layout-1 h4{
+        font-size: 15px !important;
+    }   
  }
 
  @media screen and (max-width:320px) {
@@ -161,4 +165,7 @@
     .appointment-form-wrapper{
         margin-top: 0px !important;
     }
+    .testimony-layout-1 h4{
+        /* font-size: 15px !important; */
+    }   
  }
